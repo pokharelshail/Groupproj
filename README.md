@@ -137,7 +137,8 @@ Update the above information through an update button
  
 ## Wireframes
 Picture of hand sketched wireframes: https://imgur.com/a/ShyPNtv
-Wireframe interaction: https://www.figma.com/file/d2voIoCu9fT6CyRbGnfYMj/Untitled?node-id=0%3A1
+
+Wireframe interactive prototype: https://www.figma.com/file/d2voIoCu9fT6CyRbGnfYMj/Untitled?node-id=0%3A1
 
 <img src="wireframe.gif" width=600>
 
