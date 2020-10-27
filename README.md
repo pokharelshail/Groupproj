@@ -101,22 +101,43 @@ Update the above information through an update button
 
 **Tab Navigation** (Tab to Screen)
 
-* [fill out your first tab]
-* [fill out your second tab]
-* [fill out your third tab]
+* Options Screen
+* Symptoms checklist
+* Statistics
 
 **Flow Navigation** (Screen to Screen)
 
-* [list first screen here]
-   * [list screen navigation here]
-   * ...
-* [list second screen here]
-   * [list screen navigation here]
-   * ...
-
+* Login 
+  * Options screen
+  
+* Register - User signs up for an account  account
+  * Options Screen
+  
+* Option Screen - User can see a list of icons here: Statistics, Symptoms checklist, COVID-19 info, User information
+  * Statistics
+  * Symptoms checklist
+  * Covid-19 info 
+  * User information
+ 
+* Statistics screen
+  * Statistics information screen
+  * Options
+ 
+* User information Screen
+  * User settings
+  * Options
+ 
+* Symptoms checklist screen
+  * Checklist quiz
+  * Options
+    
+* COVID-19 info screen
+  * Information screen
+  * Options
+ 
 ## Wireframes
 [Add picture of your hand sketched wireframes in this section]
-<img src="YOUR_WIREFRAME_IMAGE_URL" width=600>
+<img src="https://www.figma.com/proto/d2voIoCu9fT6CyRbGnfYMj/Untitled?node-id=1%3A25&scaling=scale-down" width=600>
 
 ### [BONUS] Digital Wireframes & Mockups
 
