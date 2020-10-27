@@ -18,7 +18,7 @@ Area is also limited to locations within the 50 United States.
 [Evaluation of your app across the following attributes]
 - **Category:** Health and Wellness
 - **Mobile:** Phone, tablet
-- **Story:** 
+- **Story:** User check app to view statistics of COVID-19 infection rates in their area, as well as general information aobut COVID-19, symptoms, and hospitals/testing centers
 - **Market:** 18-99, android, apple
 - **Habit:** Frequent(at least once a week)
 - **Scope:** Select cities within the United States
