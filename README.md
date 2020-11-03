@@ -150,6 +150,17 @@ Wireframe interactive prototype: https://www.figma.com/file/d2voIoCu9fT6CyRbGnfY
 [This section will be completed in Unit 9]
 ### Models
 [Add table of models]
+#### Organization
+
+   | Property      | Type     | Description |
+   | ------------- | -------- | ------------|
+   | Location      | String   | Location of Covid Testing Center |
+   | author        | Pointer to User| image author |
+   | image         | File     | image of location that user posts |
+   | Description   | String   | Description of testing center and instructions |
+   | Rating        | Number   | Rating of location |
+   | Hours         | Datetime | Hours of operation |
+   
 ### Networking
 - [Add list of network requests by screen ]
 - [Create basic snippets for each Parse network request]
