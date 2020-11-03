@@ -151,7 +151,13 @@ Wireframe interactive prototype: https://www.figma.com/file/d2voIoCu9fT6CyRbGnfY
 ### Models
 ## Schema 
 ### Models
+patch-3
    #### Organization User
+=======
+[Add table of models]
+#### Organization
+
+ main
    | Property      | Type     | Description |
    | ------------- | -------- | ------------|
    | Location      | String   | Location of Covid Testing Center |
@@ -161,6 +167,7 @@ Wireframe interactive prototype: https://www.figma.com/file/d2voIoCu9fT6CyRbGnfY
    | Rating        | Number   | Rating of location |
    | Hours         | Datetime | Hours of operation |
    
+ patch-3
    ####  Patient User
    | Property      | Type     | Description |
    | ------------- | -------- | ------------|
@@ -177,6 +184,8 @@ Wireframe interactive prototype: https://www.figma.com/file/d2voIoCu9fT6CyRbGnfY
    | TimeScroll   | Pointer to timelist  | Select time for appointment |
    
    
+=======
+ main
 ### Networking
 
 #### List of network requests by screen
