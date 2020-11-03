@@ -147,10 +147,57 @@ Wireframe interactive prototype: https://www.figma.com/file/d2voIoCu9fT6CyRbGnfY
 ### [BONUS] Interactive Prototype
 
 ## Schema 
-[This section will be completed in Unit 9]
+
 ### Models
-[Add table of models]
+## Schema 
+### Models
+   #### Organization User
+   | Property      | Type     | Description |
+   | ------------- | -------- | ------------|
+   | Location      | String   | Location of Covid Testing Center |
+   | author        | Pointer to User| image author |
+   | image         | File     | image of location that user posts |
+   | Description   | String   | Description of testing center and instructions |
+   | Rating        | Number   | Rating of location |
+   | Hours         | Datetime | Hours of operation |
+   
+   ####  Patient User
+   | Property      | Type     | Description |
+   | ------------- | -------- | ------------|
+   | Username      | String   | Username of User |
+   | HasTravled    | Boolean  | True or False if User has traveled|
+   | TraDescription| String   | if HasTravelled Description of travles |
+   | Gender        | String   | Gender of User|
+   | Image         | File     | Image of User |
+   #### Book Appointment
+   | Property      | Type     | Description |
+   | ------------- | -------- | ------------|
+   | NameField    | String    | Takes first name and last name in textbox|
+   | IfClicked    | Boolean  | True or False if User clicks bookAppointment|
+   | TimeScroll   | Pointer to timelist  | Select time for appointment |
+   
+   
 ### Networking
-- [Add list of network requests by screen ]
-- [Create basic snippets for each Parse network request]
-- [OPTIONAL: List endpoints if using existing API such as Yelp]
+
+#### List of network requests by screen
+
+-  Statistics Screen
+      - (Read/GET) Query logged in  list of nearest locations
+      - (Create) Appointment for location
+      - (Delete) Appointment
+      -(Read/Get) New Local Facts in top of screen
+      
+      
+-  User Profile Screen
+      - (Read/GET) Query logged in user object
+      - (Update/PUT) Update user profile image
+      
+-  Organization Profile Screen
+      - (Read/GET) Query logged in user object
+      - (Update/PUT) Update user profile image
+      - (Update/PUT) Update Hours of Operation
+      - (Update/PUT) Update Description 
+
+-  Symptoms Screen
+      - (Read/GET) List of possible symptoms with checks
+      - (Update/PUT) Check Marks next to symptoms users have
